@@ -7,5 +7,13 @@
     grid-template-columns: 200px auto 150px;
     /* Same thing as above but shorthand
     grid-template: 100px 200px / 200px auto 150px; */
-    
+
+}
+
+/* Targets second child, in this case, of div w/ class of grid */
+.grid div:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
