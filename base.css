@@ -16,3 +16,11 @@ html {
 body {
     padding: 50px;
 }
+
+code {
+    margin: 1px 5px;
+    padding: 2px 5px 1px 5px;
+    font-family: monospace;
+    border-radius: 2px;
+    border: 1px dotted #fff;
+}
