@@ -13,5 +13,9 @@
     grid-row-gap: 10px;
     grid-column-gap: 10px; 
 
+    /* Same thing as above but shorthand
+    grid-gap: 10px 10px;
+     */
+
 }
 
