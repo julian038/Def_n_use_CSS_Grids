@@ -1,0 +1,4 @@
+.grid {
+    /* Turns class grid el. into grid container */
+    display: grid;
+}
