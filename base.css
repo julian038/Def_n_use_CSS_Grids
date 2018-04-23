@@ -24,3 +24,7 @@ code {
     border-radius: 2px;
     border: 1px dotted #fff;
 }
+
+p {
+    margin: 25px 10px;
+}
