@@ -28,3 +28,8 @@ code {
 p {
     margin: 25px 10px;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
