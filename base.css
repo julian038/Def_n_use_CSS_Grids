@@ -12,3 +12,7 @@ html {
     min-height: 100vh;
     font-size: 22px;
 }
+
+body {
+    padding: 50px;
+}
