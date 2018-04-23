@@ -12,8 +12,13 @@
 
 /* Targets second child, in this case, of div w/ class of grid */
 .grid div:nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+}
+
+.grid div:nth-child(5) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
