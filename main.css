@@ -1,4 +1,8 @@
 .grid {
     /* Turns class grid el. into grid container */
     display: grid;
+    /* Defines grid row height, each additional value adds a row */
+    grid-template-rows: 100px 200px;
+    /* Defines grid col width, each additional value adds a column */
+    grid-template-columns: 200px auto 150px;
 }
