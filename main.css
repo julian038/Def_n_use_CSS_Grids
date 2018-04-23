@@ -5,4 +5,7 @@
     grid-template-rows: 100px 200px;
     /* Defines grid col width, each additional value adds a column */
     grid-template-columns: 200px auto 150px;
+    /* Same thing as above but shorthand
+    grid-template: 100px 200px / 200px auto 150px; */
+    
 }
