@@ -1,19 +1,13 @@
 .grid {
     /* Turns class grid el. into grid container */
     display: grid;
-    /* Defines grid row height, each additional value adds a row */
-    grid-template-rows: [row1-start] 100px [row1-end row2-start] 
-    100px [row2-end row3-start] 100px [row3-end];
-    /* Defines grid col width, each additional value adds a column */
-    grid-template-columns: [col1-start] 200px [col1-end col2-start] auto
-    [col2-end col3-start] 150px [col3-end];
-    /* Same thing as above but shorthand
-    grid-template: 100px 200px / 200px auto 150px */
+    
+    grid-template: 100px 100px 100px / 200px auto 150px 
 
     grid-template-areas: 
         "E E A"
         "B C A"
-        "B D F"
+        "F D A"
 }
 
 .grid div:nth-child(1) {
