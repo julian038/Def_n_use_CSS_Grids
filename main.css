@@ -2,7 +2,7 @@
     /* Turns class grid el. into grid container */
     display: grid;
     
-    grid-template: 100px 100px 100px / 200px auto 150px 
+    grid-template: 100px 100px 100px / repeat(12, 50px); 
 
     grid-template-areas: 
         "E E A"
