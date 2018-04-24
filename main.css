@@ -4,10 +4,6 @@
     
     grid-template: 100px 100px 100px / repeat(12, 50px); 
 
-    grid-template-areas: 
-        "E E A"
-        "B C A"
-        "F D A"
 }
 
 .grid div:nth-child(1) {
@@ -15,21 +11,17 @@
 }
 
 .grid div:nth-child(2) {
-    grid-area: B;
+    grid-column: auto / span 12;
 }
 
 .grid div:nth-child(3) {
-    grid-area: C;
 }
 
 .grid div:nth-child(4) {
-    grid-area: D;
 }
 
 .grid div:nth-child(5) {
-    grid-area: E;
 }
 
 .grid div:nth-child(6) {
-    grid-area: F;
 }
